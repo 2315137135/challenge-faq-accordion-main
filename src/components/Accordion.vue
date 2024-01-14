@@ -6,7 +6,7 @@
                 <div class="pr-16 text-left">
                     <slot name="title"></slot>
                 </div>
-                <img class="absolute top-0 bottom-0 right-0 my-auto" :src="butonImg" />
+                <img class="absolute top-0 bottom-0 right-0 my-auto" alt="button" :src="butonImg" />
             </button>
         </div>
         <div class="pr-8 overflow-hidden transition-all duration-300 max-h-0 text-neutral-500" :class="{ 'open': isOpen }">
@@ -14,7 +14,6 @@
             <br>
             <slot></slot>
         </div>
-
     </li>
 </template>
 
